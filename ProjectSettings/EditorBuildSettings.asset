@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hard Game.unity
     guid: 66020b66a27d5154dbafd85f8ea8b0c8
+  - enabled: 1
+    path: Assets/Scenes/Manuk War.unity
+    guid: 27f91043fa4d2cb4ca58e01e372fcd70
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

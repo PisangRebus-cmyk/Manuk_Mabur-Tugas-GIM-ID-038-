@@ -15,7 +15,7 @@ public class stiker : MonoBehaviour
 
     void Update()
     {
-        if (logic.Manuk_Idup = false)          // player died
+        if (logic.Manuk_Idup == false)          // player died
         {
             foreach (GameObject item in items)
                 item.SetActive(true);

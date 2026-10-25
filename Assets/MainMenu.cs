@@ -4,6 +4,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
     public void PlayGame1()
     {
         SceneManager.LoadSceneAsync(1);
@@ -19,6 +24,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync(3);
     }
 
+    public void Playgame4()
+    {
+        SceneManager.LoadSceneAsync(4);
+    }
+
     public void back()
     {
         SceneManager.LoadSceneAsync(0);
@@ -27,5 +37,6 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+        
     }
 }
